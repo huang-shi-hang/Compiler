@@ -1,0 +1,34 @@
+COMPUNIT
+	Function(f)
+		Type(int)
+		FUNCFPARAMS
+			Ident(b  )
+				Type(int)
+			Ident(c  )
+				Type(int)
+			
+		BLOCK
+			VARDECL
+				Type(int)
+				Ident(a)	 Value(   b + c  )
+				
+			RETURNSTMT
+				EXP(  a )
+			
+		
+	Function(main)
+		Type(int)
+		
+		BLOCK
+			VARDECL
+				Type(int)
+				Ident(x)
+				
+			VARDECL
+				Type(int)
+				Ident(z)
+				Ident(y)
+				
+			
+		
+	
